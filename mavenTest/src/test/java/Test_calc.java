@@ -28,7 +28,7 @@ public class Test_calc
     }
     @Test
     public void testDiv() {
-        Assert.assertEquals(5,calc.div());
+        Assert.assertEquals(4,calc.div());
         calc.a=10;
         Assert.assertNotEquals(111,calc.div());
     }
